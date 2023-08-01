@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nette/bootstrap": "^3.2"
+    }
+}
