@@ -1,2 +1,13 @@
 parameters:
 	test: %env.NETTE_TEST%/foo
+
+services:
+	one:
+		class: TestService
+		arguments:
+			test: %test%
+
+	two:
+		class: TestService
+		arguments:
+			test: %env.NETTE_TEST%/foo
